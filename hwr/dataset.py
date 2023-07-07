@@ -249,6 +249,7 @@ def get_dataset_size(csv_path):
     :param csv_path: The path to csv containing information about the dataset
     :return: The size of the dataset
     """
+    print('Entered get_dataset_size')
     return len(pd.read_csv(csv_path, sep='\t', header=None, names=['img_path', 'transcription'], quoting=csv.QUOTE_NONE))
 
 
@@ -264,11 +265,13 @@ def get_encoded_dataset_from_csv(csv_path, char2idx, max_seq_size, img_size):
     :return: The tf dataset containing encoded images and their respective transcriptions
     """
     path_sep = os.path.sep
-    path_prefix = tf.strings.join(csv_path.split('/')[:-1], path_sep)
+    path_prefix = '' #tf.strings.join(csv_path.split('/')[:-1], path_sep)
+    temp_var = tf.strings.join([path_prefix, tf.strings.reduce_join(tf.strings.split(img_path, '/'), separator=path_sep)],
+                            separator=path_sep)
+    print(temp_var)
     return tf.data.experimental.CsvDataset(csv_path, ['img', 'trans'], field_delim='\t', use_quote_delim=False, na_value='').map(
         lambda img_path, transcription: encode_img_and_transcription(
-            tf.strings.join([path_prefix, tf.strings.reduce_join(tf.strings.split(img_path, '/'), separator=path_sep)],
-                            separator=path_sep),
+            temp_var,
             transcription, char2idx, max_seq_size, img_size),
         num_parallel_calls=tf.data.experimental.AUTOTUNE)
 
