@@ -266,12 +266,10 @@ def get_encoded_dataset_from_csv(csv_path, char2idx, max_seq_size, img_size):
     """
     path_sep = os.path.sep
     path_prefix = '' #tf.strings.join(csv_path.split('/')[:-1], path_sep)
-    temp_var = tf.strings.join([path_prefix, tf.strings.reduce_join(tf.strings.split(img_path, '/'), separator=path_sep)],
-                            separator=path_sep)
-    print(temp_var)
     return tf.data.experimental.CsvDataset(csv_path, ['img', 'trans'], field_delim='\t', use_quote_delim=False, na_value='').map(
         lambda img_path, transcription: encode_img_and_transcription(
-            temp_var,
+            tf.strings.join([path_prefix, tf.strings.reduce_join(tf.strings.split(img_path, '/'), separator=path_sep)],
+                            separator=path_sep),
             transcription, char2idx, max_seq_size, img_size),
         num_parallel_calls=tf.data.experimental.AUTOTUNE)
 
