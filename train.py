@@ -101,11 +101,13 @@ def train_model(args):
 
         train_dataset = ds.get_encoded_dataset_from_csv(configs[TRAIN_CSV_PATH], char2idx, configs[MAX_SEQ_SIZE],
                                                         eval(configs[IMG_SIZE]))\
-            .cache("caches/train.cache" + run_id).shuffle(10000, reshuffle_each_iteration=True)\
+            .shuffle(10000, reshuffle_each_iteration=True)\
             .batch(configs[BATCH_SIZE])
+            # .cache("caches/train.cache" + run_id)
         val_dataset = ds.get_encoded_dataset_from_csv(configs[VAL_CSV_PATH], char2idx, configs[MAX_SEQ_SIZE],
                                                       eval(configs[IMG_SIZE]))\
-            .batch(configs[BATCH_SIZE]).cache("caches/validation.cache" + run_id)
+            .batch(configs[BATCH_SIZE])
+            # .cache("caches/validation.cache" + run_id)
 
     if configs[APPLY_GRID_WARP_AUGMENTATION] or configs[APPLY_BLEEDTHROUGH_AUGMENTATION] \
             or configs[APPLY_NOISE_AUGMENTATION]:
