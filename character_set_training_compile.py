@@ -121,25 +121,25 @@ iam_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_hand
 create_csvs_from_dataframes(iam, iam_output_path)
 
 ## Create csvs from for_torben folder
-feb1 = '/grphome/fslg_census/compute/projects/for_torben/training_data_feb1'
-feb1_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/for_torben/training_data_feb1'
-create_csvs_from_dataframes(feb1, feb1_output_path)
+# feb1 = '/grphome/fslg_census/compute/projects/for_torben/training_data_feb1'
+# feb1_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/for_torben/training_data_feb1'
+# create_csvs_from_dataframes(feb1, feb1_output_path)
 
-feb24_age = '/grphome/fslg_census/compute/projects/for_torben/feb24_age_training_data.csv'
-feb24_age_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/for_torben/feb24_age.csv'
-create_csvs_from_dataframes(feb24_age, feb24_age_output_path)
+# feb24_age = '/grphome/fslg_census/compute/projects/for_torben/feb24_age_training_data.csv'
+# feb24_age_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/for_torben/feb24_age.csv'
+# create_csvs_from_dataframes(feb24_age, feb24_age_output_path)
 
-mar9_father_birth = '/grphome/fslg_census/compute/projects/for_torben/father_birthplaces_denmark/mar9_father_birth_training_data.csv'
-mar9_father_birth_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/for_torben/mar9_father_birth.csv'
-create_csvs_from_dataframes(mar9_father_birth, mar9_father_birth_output_path)
+# mar9_father_birth = '/grphome/fslg_census/compute/projects/for_torben/father_birthplaces_denmark/mar9_father_birth_training_data.csv'
+# mar9_father_birth_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/for_torben/mar9_father_birth.csv'
+# create_csvs_from_dataframes(mar9_father_birth, mar9_father_birth_output_path)
 
-new_training_data = '/grphome/fslg_census/compute/projects/for_torben/ages_only/new_training_data.csv'
-new_training_data_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/for_torben/new_training_data.csv'
-create_csvs_from_dataframes(new_training_data, new_training_data_output_path)
+# new_training_data = '/grphome/fslg_census/compute/projects/for_torben/ages_only/new_training_data.csv'
+# new_training_data_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/for_torben/new_training_data.csv'
+# create_csvs_from_dataframes(new_training_data, new_training_data_output_path)
 
-feb15_race = '/grphome/fslg_census/compute/projects/for_torben/training_data_census_files/feb15_race_training_data'
-feb15_race_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/for_torben/feb15_race.csv'
-create_csvs_from_dataframes(feb15_race, feb15_race_output_path)
+# feb15_race = '/grphome/fslg_census/compute/projects/for_torben/training_data_census_files/feb15_race_training_data'
+# feb15_race_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/for_torben/feb15_race.csv'
+# create_csvs_from_dataframes(feb15_race, feb15_race_output_path)
 
 # Validated by Brigham 07/20
 mar9_relationship = '/grphome/fslg_census/compute/projects/for_torben/training_data_census_files/mar9_relationship_training_data.csv'
@@ -156,29 +156,34 @@ mar9_father_birth_training = '/grphome/fslg_census/compute/projects/for_torben/t
 mar9_father_birth_training_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/for_torben/mar9_father_birth_training.csv'
 create_csvs_from_dataframes(mar9_father_birth_training, mar9_father_birth_training_output_path)
 
-feb24_age_training = '/grphome/fslg_census/compute/projects/for_torben/training_data_census_files/feb24_age_training_data.csv'
-feb24_age_training_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/for_torben/feb24_age_training.csv'
-create_csvs_from_dataframes(feb24_age_training, feb24_age_training_output_path)
+# Validated by Brigham 07/20
+names_2 = '/grphome/fsl_groups/fslg_census/compute/projects/for_torben/names_2/names.csv'
+names_2_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/for_torben/names.csv'
+create_csvs_from_dataframes(names_2, names_2_output_path)
 
-mar9_relationship_denmark = '/grphome/fslg_census/compute/projects/for_torben/relationships_denmark/mar9_relationship_training_data.csv'
-mar9_relationship_denmark_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/for_torben/mar9_relationship_denmark.csv'
-create_csvs_from_dataframes(mar9_relationship_denmark, mar9_relationship_denmark_output_path)
+# feb24_age_training = '/grphome/fslg_census/compute/projects/for_torben/training_data_census_files/feb24_age_training_data.csv'
+# feb24_age_training_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/for_torben/feb24_age_training.csv'
+# create_csvs_from_dataframes(feb24_age_training, feb24_age_training_output_path)
 
-training1_output = '/grphome/fslg_census/compute/projects/for_torben/training_outputs/training1'
-training1_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/for_torben/training1.csv'
-create_csvs_from_dataframes(training1_output, training1_output_path)
+# mar9_relationship_denmark = '/grphome/fslg_census/compute/projects/for_torben/relationships_denmark/mar9_relationship_training_data.csv'
+# mar9_relationship_denmark_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/for_torben/mar9_relationship_denmark.csv'
+# create_csvs_from_dataframes(mar9_relationship_denmark, mar9_relationship_denmark_output_path)
 
-gender_training = '/grphome/fslg_census/compute/projects/for_torben/training_outputs/gender_training.csv'
-gender_training_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/for_torben/gender_training.csv'
-create_csvs_from_dataframes(gender_training, gender_training_output_path)
+# training1_output = '/grphome/fslg_census/compute/projects/for_torben/training_outputs/training1'
+# training1_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/for_torben/training1.csv'
+# create_csvs_from_dataframes(training1_output, training1_output_path)
 
-mar9_birthplace_denmark = '/grphome/fslg_census/compute/projects/for_torben/birthplaces_denmark/mar9_birthplace_training_data.csv'
-mar9_birthplace_denmark_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/for_torben/mar9_birthplace_denmark.csv'
-create_csvs_from_dataframes(mar9_birthplace_denmark, mar9_birthplace_denmark_output_path)
+# gender_training = '/grphome/fslg_census/compute/projects/for_torben/training_outputs/gender_training.csv'
+# gender_training_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/for_torben/gender_training.csv'
+# create_csvs_from_dataframes(gender_training, gender_training_output_path)
 
-race_training_data_6 = '/grphome/fslg_census/compute/projects/for_torben/races_for_denmark/race_training_data_6.csv'
-race_training_data_6_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/for_torben/race_training_data_6.csv'
-create_csvs_from_dataframes(race_training_data_6, race_training_data_6_output_path)
+# mar9_birthplace_denmark = '/grphome/fslg_census/compute/projects/for_torben/birthplaces_denmark/mar9_birthplace_training_data.csv'
+# mar9_birthplace_denmark_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/for_torben/mar9_birthplace_denmark.csv'
+# create_csvs_from_dataframes(mar9_birthplace_denmark, mar9_birthplace_denmark_output_path)
+
+# race_training_data_6 = '/grphome/fslg_census/compute/projects/for_torben/races_for_denmark/race_training_data_6.csv'
+# race_training_data_6_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/for_torben/race_training_data_6.csv'
+# create_csvs_from_dataframes(race_training_data_6, race_training_data_6_output_path)
 
 gender_training_denmark = '/grphome/fslg_census/compute/projects/for_torben/genders_for_denmark/gender_training.csv'
 gender_training_denmark_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/for_torben/gender_training_denmark.csv'
@@ -188,22 +193,22 @@ create_csvs_from_dataframes(gender_training_denmark, gender_training_denmark_out
 mar22_n_t_d_w_familyid = '/grphome/fslg_census/compute/projects/for_torben/mar22_name_training_data_with_familyid.csv'
 mar22_n_t_d_w_familyid_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/for_torben/mar22_name_training_data_with_familyid.csv'
 
-## Handwriting datasets (found in the hwr folder)
-fixed_t_n_d_surnames_val = '/grphome/fslg_census/compute/projects/hwr/data_labeled/fixed_transcriptions_names_dashed_surnames_20191025_val'
-fixed_t_n_d_surnames_val_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/hwr/fixed_transcriptions_names_dashed_surnames_20191025_val.csv'
-create_csvs_from_dataframes(fixed_t_n_d_surnames_val, fixed_t_n_d_surnames_val_output_path)
+# ## Handwriting datasets (found in the hwr folder)
+# fixed_t_n_d_surnames_val = '/grphome/fslg_census/compute/projects/hwr/data_labeled/fixed_transcriptions_names_dashed_surnames_20191025_val'
+# fixed_t_n_d_surnames_val_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/hwr/fixed_transcriptions_names_dashed_surnames_20191025_val.csv'
+# create_csvs_from_dataframes(fixed_t_n_d_surnames_val, fixed_t_n_d_surnames_val_output_path)
 
-fixed_t_n_d_surnames_train = '/grphome/fslg_census/compute/projects/hwr/data_labeled/transcriptions_names_dashed_surnames_20191025_train'
-fixed_t_n_d_surnames_train_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/hwr/transcriptions_names_dashed_surnames_20191025_train.csv'
-create_csvs_from_dataframes(fixed_t_n_d_surnames_train, fixed_t_n_d_surnames_train_output_path)
+# fixed_t_n_d_surnames_train = '/grphome/fslg_census/compute/projects/hwr/data_labeled/transcriptions_names_dashed_surnames_20191025_train'
+# fixed_t_n_d_surnames_train_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/hwr/transcriptions_names_dashed_surnames_20191025_train.csv'
+# create_csvs_from_dataframes(fixed_t_n_d_surnames_train, fixed_t_n_d_surnames_train_output_path)
 
-fixed_t_n_d_surnames_test = '/grphome/fslg_census/compute/projects/hwr/data_labeled/fixed_transcriptions_names_dashed_surnames_20191025_test'
-fixed_t_n_d_surnames_test_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/hwr/fixed_transcriptions_names_dashed_surnames_20191025_test.csv'
-create_csvs_from_dataframes(fixed_t_n_d_surnames_test, fixed_t_n_d_surnames_test_output_path)
+# fixed_t_n_d_surnames_test = '/grphome/fslg_census/compute/projects/hwr/data_labeled/fixed_transcriptions_names_dashed_surnames_20191025_test'
+# fixed_t_n_d_surnames_test_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/hwr/fixed_transcriptions_names_dashed_surnames_20191025_test.csv'
+# create_csvs_from_dataframes(fixed_t_n_d_surnames_test, fixed_t_n_d_surnames_test_output_path)
 
-fixed_t_n_o_full_names_val = '/grphome/fslg_census/compute/projects/hwr/data_labeled/fixed_transcriptions_names_only_full_names_val'
-fixed_t_n_o_full_names_val_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/hwr/fixed_transcriptions_names_only_full_names_val.csv'
-create_csvs_from_dataframes(fixed_t_n_o_full_names_val, fixed_t_n_o_full_names_val_output_path)
+# fixed_t_n_o_full_names_val = '/grphome/fslg_census/compute/projects/hwr/data_labeled/fixed_transcriptions_names_only_full_names_val'
+# fixed_t_n_o_full_names_val_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/hwr/fixed_transcriptions_names_only_full_names_val.csv'
+# create_csvs_from_dataframes(fixed_t_n_o_full_names_val, fixed_t_n_o_full_names_val_output_path)
 
 # Validated by Brigham 07/20
 fixed_t_n_o_full_names_train = '/grphome/fslg_census/compute/projects/hwr/data_labeled/fixed_transcriptions_names_only_full_names_train'
@@ -215,47 +220,52 @@ fixed_t_n_o_full_names_test_output_path = '/grphome/fslg_census/compute/Machine_
 create_csvs_from_dataframes(fixed_t_n_o_full_names_test, fixed_t_n_o_full_names_test_output_path)
 
 ## Segmentation Datasets
-t_n_d_surnames_val_segmentation = '/grphome/fslg_census/compute/projects/segmentation/data_labeled/transcriptions_names_dashed_surnames_with_blanks_20191111_val'
-t_n_d_surnames_val_segmentation_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/segmentation/transcriptions_names_dashed_surnames_with_blanks_20191111_val.csv'
-create_csvs_from_dataframes(t_n_d_surnames_val_segmentation, t_n_d_surnames_val_segmentation_output_path)
+# t_n_d_surnames_val_segmentation = '/grphome/fslg_census/compute/projects/segmentation/data_labeled/transcriptions_names_dashed_surnames_with_blanks_20191111_val'
+# t_n_d_surnames_val_segmentation_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/segmentation/transcriptions_names_dashed_surnames_with_blanks_20191111_val.csv'
+# create_csvs_from_dataframes(t_n_d_surnames_val_segmentation, t_n_d_surnames_val_segmentation_output_path)
 
-t_n_d_surnames_randomized_segmentation = '/grphome/fslg_census/compute/projects/segmentation/data_labeled/transcriptions_names_dashed_surnames_with_blanks_20191111_randomized'
-t_n_d_surnames_randomized_segmentation_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/segmentation/transcriptions_names_dashed_surnames_with_blanks_20191111_randomized.csv'
-create_csvs_from_dataframes(t_n_d_surnames_randomized_segmentation, t_n_d_surnames_randomized_segmentation_output_path)
+# t_n_d_surnames_randomized_segmentation = '/grphome/fslg_census/compute/projects/segmentation/data_labeled/transcriptions_names_dashed_surnames_with_blanks_20191111_randomized'
+# t_n_d_surnames_randomized_segmentation_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/segmentation/transcriptions_names_dashed_surnames_with_blanks_20191111_randomized.csv'
+# create_csvs_from_dataframes(t_n_d_surnames_randomized_segmentation, t_n_d_surnames_randomized_segmentation_output_path)
 
-t_n_d_surnames_test_segmentation = '/grphome/fslg_census/compute/projects/segmentation/data_labeled/transcriptions_names_dashed_surnames_with_blanks_20191111_test'
-t_n_d_surnames_test_segmentation_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/segmentation/transcriptions_names_dashed_surnames_with_blanks_20191111_test.csv'
-create_csvs_from_dataframes(t_n_d_surnames_test_segmentation, t_n_d_surnames_test_segmentation_output_path)
+# t_n_d_surnames_test_segmentation = '/grphome/fslg_census/compute/projects/segmentation/data_labeled/transcriptions_names_dashed_surnames_with_blanks_20191111_test'
+# t_n_d_surnames_test_segmentation_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/segmentation/transcriptions_names_dashed_surnames_with_blanks_20191111_test.csv'
+# create_csvs_from_dataframes(t_n_d_surnames_test_segmentation, t_n_d_surnames_test_segmentation_output_path)
 
-t_n_d_surnames_train_segmentation = '/grphome/fslg_census/compute/projects/segmentation/data_labeled/transcriptions_names_dashed_surnames_with_blanks_20191111_train'
-t_n_d_surnames_train_segmentation_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/segmentation/transcriptions_names_dashed_surnames_with_blanks_20191111_train.csv'
-create_csvs_from_dataframes(t_n_d_surnames_train_segmentation, t_n_d_surnames_train_segmentation_output_path)
+# t_n_d_surnames_train_segmentation = '/grphome/fslg_census/compute/projects/segmentation/data_labeled/transcriptions_names_dashed_surnames_with_blanks_20191111_train'
+# t_n_d_surnames_train_segmentation_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/segmentation/transcriptions_names_dashed_surnames_with_blanks_20191111_train.csv'
+# create_csvs_from_dataframes(t_n_d_surnames_train_segmentation, t_n_d_surnames_train_segmentation_output_path)
 
-## Mexico Census Datasets
-mexico_train = '/grphome/fslg_census/compute/projects/Mexico_Census/segments/mexico_train.tsv'
-mexico_train_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/Mexico_Census/mexico_train.tsv'
-create_csvs_from_dataframes(mexico_train, mexico_train_output_path)
+# ## Mexico Census Datasets
+# mexico_train = '/grphome/fslg_census/compute/projects/Mexico_Census/segments/mexico_train.tsv'
+# mexico_train_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/Mexico_Census/mexico_train.tsv'
+# create_csvs_from_dataframes(mexico_train, mexico_train_output_path)
 
-mexico_test_3k_sampled_images = '/grphome/fslg_census/compute/projects/Mexico_Census/testing_sets_mexico/3k_sampled_images/3k_test.csv'
-mexico_test_3k_sampled_images_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/Mexico_Census/3k_sampled_images/3k_test.csv'
-create_csvs_from_dataframes(mexico_test_3k_sampled_images, mexico_test_3k_sampled_images_output_path)
+# mexico_test_3k_sampled_images = '/grphome/fslg_census/compute/projects/Mexico_Census/testing_sets_mexico/3k_sampled_images/3k_test.csv'
+# mexico_test_3k_sampled_images_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/Mexico_Census/3k_sampled_images/3k_test.csv'
+# create_csvs_from_dataframes(mexico_test_3k_sampled_images, mexico_test_3k_sampled_images_output_path)
 
-mexico_train_3k_sampled_images = '/grphome/fslg_census/compute/projects/Mexico_Census/testing_sets_mexico/3k_sampled_images/3k_images_folder_jackson/3k_train.tsv'
-mexico_train_3k_sampled_images_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/Mexico_Census/3k_sampled_images/3k_train.tsv'
-create_csvs_from_dataframes(mexico_train_3k_sampled_images, mexico_train_3k_sampled_images_output_path)
+# mexico_train_3k_sampled_images = '/grphome/fslg_census/compute/projects/Mexico_Census/testing_sets_mexico/3k_sampled_images/3k_images_folder_jackson/3k_train.tsv'
+# mexico_train_3k_sampled_images_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/Mexico_Census/3k_sampled_images/3k_train.tsv'
+# create_csvs_from_dataframes(mexico_train_3k_sampled_images, mexico_train_3k_sampled_images_output_path)
 
-mexico_validated_data = '/grphome/fslg_census/compute/projects/Mexico_Census/Mexican-Census/6-reverse-indexing/folder_7/folder_4_validated_data.csv'
-mexico_validated_data_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/Mexico_Census/validated_data.csv'
-create_csvs_from_dataframes(mexico_validated_data, mexico_validated_data_output_path)
+# mexico_validated_data = '/grphome/fslg_census/compute/projects/Mexico_Census/Mexican-Census/6-reverse-indexing/folder_7/folder_4_validated_data.csv'
+# mexico_validated_data_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/Mexico_Census/validated_data.csv'
+# create_csvs_from_dataframes(mexico_validated_data, mexico_validated_data_output_path)
 
-mexico_census_f7_validated = '/grphome/fslg_census/compute/projects/Mexico_Census/output/ri_raw_out/f_7/mexico_census_f7_1:7_validated.csv'
-mexico_census_f7_validated_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/Mexico_Census/mexico_census_f7_1_7_validated.csv'
-create_csvs_from_dataframes(mexico_census_f7_validated, mexico_census_f7_validated_output_path)
+# mexico_census_f7_validated = '/grphome/fslg_census/compute/projects/Mexico_Census/output/ri_raw_out/f_7/mexico_census_f7_1:7_validated.csv'
+# mexico_census_f7_validated_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/Mexico_Census/mexico_census_f7_1_7_validated.csv'
+# create_csvs_from_dataframes(mexico_census_f7_validated, mexico_census_f7_validated_output_path)
 
 # Validated by Brigham 07/20
 mexico_train_snip = '/grphome/fslg_census/compute/projects/Mexico_Census/segments/train_snip.tsv'
 mexico_train_snip_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/Mexico_Census/mexico_train_snip.csv'
 create_csvs_from_dataframes(mexico_train_snip, mexico_train_snip_output_path)
+
+# Validated by Brigham 07/20
+mexico_hwr_training = '/grphome/fslg_census/compute/projects/Mexico_Census/segments/train_snip/csv/Mexico_HWR_Training.csv'
+mexico_hwr_training_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/Mexico_Census/mexico_hwr_training.csv'
+create_csvs_from_dataframes(mexico_hwr_training, mexico_hwr_training_output_path)
 
 ## 1910 US Census
 # Validated by Brigham 07/20
