@@ -192,6 +192,7 @@ create_csvs_from_dataframes(gender_training_denmark, gender_training_denmark_out
 # Validated by Brigham 07/20
 mar22_n_t_d_w_familyid = '/grphome/fslg_census/compute/projects/for_torben/mar22_name_training_data_with_familyid.csv'
 mar22_n_t_d_w_familyid_output_path = '/grphome/fslg_census/compute/Machine_learning_models/BYU_handwriting_model/datasets_for_training_data/for_torben/mar22_name_training_data_with_familyid.csv'
+create_csvs_from_dataframes(mar22_n_t_d_w_familyid, mar22_n_t_d_w_familyid_output_path)
 
 # ## Handwriting datasets (found in the hwr folder)
 # fixed_t_n_d_surnames_val = '/grphome/fslg_census/compute/projects/hwr/data_labeled/fixed_transcriptions_names_dashed_surnames_20191025_val'
